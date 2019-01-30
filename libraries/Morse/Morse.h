@@ -16,7 +16,6 @@ class Morse
     void dash();
     void spaceL();
     void spaceW();
-	void endS();
     void A();
     void B();
     void C();

@@ -31,17 +31,12 @@ void Morse::dash()
 
 void Morse::spaceL()
 {
-    delay(750);
+    delay(500);
 }
 
 void Morse::spaceW()
 {
     delay(1000);
-}
-
-void Morse::endS()
-{
-	delay(1250);
 }
 
 void Morse::A()

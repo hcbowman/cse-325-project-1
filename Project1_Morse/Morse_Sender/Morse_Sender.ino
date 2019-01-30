@@ -1,7 +1,6 @@
 #include <Morse.h>
 Morse morse(9);
 char input;
-
 void setup()
 {
   Serial.begin(9600);
@@ -48,8 +47,7 @@ void loop()
     if (input == '9') {morse.N9();}
     if (input == '0') {morse.N0();}
     if (input == ' ') {morse.spaceW();}//the space
-    if (input == '.') {morse.endS();}// end of sentence
     Serial.println (input);//print the latter saved in the input var
     
-    }
+  }
   }
